@@ -10,6 +10,9 @@ export default class mainDemo {
   //public method
   onsubmit() {
     this[_classDemoObj].publicMethodDemo("Harshal Dalvi");
+    this[_classDemoObj].fullname = "Saylee Mane"; //value set
+    //this[_classDemoObj].fullname = null;
+    console.log(this[_classDemoObj].fullname); //value get
   }
 }
 
