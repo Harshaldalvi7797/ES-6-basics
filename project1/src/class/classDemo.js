@@ -7,6 +7,10 @@ const _fullname = Symbol("fullname");
 const age = Symbol("age"); // for property name
 const _age = Symbol("age"); //property private variable
 
+//declaration of static property
+//const firstname = Symbol("firstname");
+const _firstname = Symbol("firstname");
+
 export default class classDemo {
   constructor() {
     console.log("constructor automatically called when instance is created");
@@ -59,5 +63,13 @@ export default class classDemo {
     // this.privateMethodDemo();
     // let classDemoObj = new classDemo();
     // classDemoObj.publicMethodDemo();
+  }
+
+  //public static property
+  static set firstname(value) {
+    this[_firstname] = value;
+  }
+  static get firstname() {
+    return this[_firstname];
   }
 }

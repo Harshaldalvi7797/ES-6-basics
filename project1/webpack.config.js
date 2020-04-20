@@ -11,7 +11,11 @@ module.exports = {
   mode: "production", // development // production
   entry: [
     "../project1/src/Class/classDemo.js",
-    "../project1/src/Class/mainDemo.js"
+    "../project1/src/Class/mainDemo.js",
+    "../project1/src/static/staticMethod.js",
+    "../project1/src/static/nonStaticDemo1.js",
+    "../project1/src/static/nonStaticDemo2.js",
+    "../project1/src/static/main.js"
 
     // "../Day19/src/Class/classDemo.js",
     // "../Day19/src/Class/mainDemo.js"

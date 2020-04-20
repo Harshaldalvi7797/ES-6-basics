@@ -1,4 +1,5 @@
 import classDemo from "../class/classDemo";
+import staticMehodDemo from "../static/staticMethod";
 //import { class1,class2,class3} from "../Class/classDemo"; // When u introduce multiple clasess in single .js file (Without using default)
 
 const _classDemoObj = Symbol("_classDemoObj");
@@ -16,6 +17,10 @@ export default class mainDemo {
     console.log(this[_classDemoObj].fullname); //value get
     //call static method
     classDemo.staticPublicMethodDemo();
+
+    //called static property
+    classDemo.firstname = "Javascript";
+    console.log(classDemo.firstname);
   }
 }
 
