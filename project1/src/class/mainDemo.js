@@ -14,6 +14,8 @@ export default class mainDemo {
 
     //this[_classDemoObj].fullname = null;
     console.log(this[_classDemoObj].fullname); //value get
+    //call static method
+    classDemo.staticPublicMethodDemo();
   }
 }
 

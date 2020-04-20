@@ -33,6 +33,10 @@ export default class classDemo {
     //access private property
     this[_age] = 23;
     console.log(this[_age]);
+    //call static method
+    // staticPublicMethodDemo(); you cant call static method in public method
+
+    classDemo.staticPublicMethodDemo(); //using classname call static method
   }
 
   //public property
@@ -45,5 +49,15 @@ export default class classDemo {
   }
   get fullname() {
     return this[_fullname];
+  }
+
+  //static method
+  static staticPublicMethodDemo() {
+    console.log("static method demo");
+
+    //error you cant called non static method
+    // this.privateMethodDemo();
+    // let classDemoObj = new classDemo();
+    // classDemoObj.publicMethodDemo();
   }
 }
