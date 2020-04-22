@@ -18,7 +18,11 @@ module.exports = {
     "../project1/src/static/main.js",
     "../project1/src/abstarct/abstractDemo.js",
     "../project1/src/abstarct/childDemo.js",
-    "../project1/src/abstarct/mainDemo.js"
+    "../project1/src/abstarct/mainDemo.js",
+
+    "../project1/src/Inheritance/SingleInheritance/parent.js",
+    "../project1/src/Inheritance/SingleInheritance/child.js",
+    "../project1/src/Inheritance/SingleInheritance/main.js"
 
     // "../Day19/src/Class/classDemo.js",
     // "../Day19/src/Class/mainDemo.js"
