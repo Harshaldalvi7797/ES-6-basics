@@ -15,7 +15,10 @@ module.exports = {
     "../project1/src/static/staticMethod.js",
     "../project1/src/static/nonStaticDemo1.js",
     "../project1/src/static/nonStaticDemo2.js",
-    "../project1/src/static/main.js"
+    "../project1/src/static/main.js",
+    "../project1/src/abstarct/abstractDemo.js",
+    "../project1/src/abstarct/childDemo.js",
+    "../project1/src/abstarct/mainDemo.js"
 
     // "../Day19/src/Class/classDemo.js",
     // "../Day19/src/Class/mainDemo.js"
