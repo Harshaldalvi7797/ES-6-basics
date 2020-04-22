@@ -1,11 +1,14 @@
 export default class parent {
-  constructor() {}
-  //public method
-  //incomplete method
+  // Public Method
+
+  // InComplete Method
+  // @virtual
   inCompleteMethodDemo() {
-    throw new Error("parent : Incomplete method");
+    throw new Error("Parent : InComplete Method");
   }
 
+  //Complete Method
+  // @Virtual
   completeMethodDemo() {
     console.log("Parent : Complete Method");
   }

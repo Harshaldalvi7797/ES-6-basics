@@ -19,7 +19,7 @@ export default class mainDemo {
   }
 }
 export function onSubmitClickEvent() {
-  let abstractDemoObj = new abstractDemo();
+  // let abstractDemoObj = new abstractDemo();
   let childDemoObj = new childDemo();
   let mainDemoObj = new mainDemo(childDemoObj);
   mainDemoObj.onsubmit();
