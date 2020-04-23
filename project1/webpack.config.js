@@ -24,10 +24,23 @@ module.exports = {
     // "../project1/src/Inheritance/SingleInheritance/child.js",
     // "../project1/src/Inheritance/SingleInheritance/main.js",
 
-    "../project1/src/Inheritance/multilevel/A.js",
-    "../project1/src/Inheritance/multilevel/B.js",
-    "../project1/src/Inheritance/multilevel/C.js",
-    "../project1/src/Inheritance/multilevel/main.js"
+    // "../project1/src/Inheritance/multilevel/A.js",
+    // "../project1/src/Inheritance/multilevel/B.js",
+    // "../project1/src/Inheritance/multilevel/C.js",
+    // "../project1/src/Inheritance/multilevel/main.js"
+
+    // "../project1/src/DiscountEx/discount.js",
+    // "../project1/src/DiscountEx/customerA.js",
+    // "../project1/src/DiscountEx/customerB.js",
+    // "../project1/src/DiscountEx/salesContext.js",
+    // "../project1/src/DiscountEx/salesModel.js",
+    // "../project1/src/DiscountEx/salesMain.js"
+    "../project1/src/DiscountExample/discount.js",
+    "../project1/src/DiscountExample/customerA.js",
+    "../project1/src/DiscountExample/customerB.js",
+    "../project1/src/DiscountExample/salesContext.js",
+    "../project1/src/DiscountExample/salesModel.js",
+    "../project1/src/DiscountExample/salesMain.js"
 
     // "../Day19/src/Class/classDemo.js",
     // "../Day19/src/Class/mainDemo.js"
